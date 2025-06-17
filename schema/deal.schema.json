@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/<OWNER>/compute-deal-map-data/schema/deal.schema.json",
+  "$id": "https://github.com/jstwng/compute-deal-map-data/schema/deal.schema.json",
   "title": "Deal",
   "type": "object",
   "required": [
