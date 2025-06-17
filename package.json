@@ -1,0 +1,20 @@
+{
+  "name": "compute-deal-map-data",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-backed dataset of publicly disclosed AI infrastructure deals",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "test": "node --test scripts/"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
