@@ -1,0 +1,10 @@
+- slug: nvidia
+  name: NVIDIA
+  ticker: NVDA
+  category: chip_designer
+  subline: "test"
+- slug: coreweave
+  name: CoreWeave
+  ticker: CRWV
+  category: neocloud
+  subline: "test"
