@@ -1,0 +1,170 @@
+- slug: nvidia
+  name: NVIDIA
+  ticker: NVDA
+  category: chip_designer
+  subline: "$205.7B rev (FY2026)"
+
+- slug: amd
+  name: AMD
+  ticker: AMD
+  category: chip_designer
+  subline: "$34.6B rev (2025), DC $12.6B"
+
+- slug: broadcom
+  name: Broadcom
+  ticker: AVGO
+  category: chip_designer
+  subline: "$8.4B AI rev Q1, $73B backlog"
+
+- slug: marvell
+  name: Marvell
+  ticker: MRVL
+  category: chip_designer
+  subline: "~$5.2B AI ASIC rev (2025)"
+
+- slug: intel
+  name: Intel
+  ticker: INTC
+  category: chip_designer
+  subline: "$4.5B foundry rev (Q4 2025)"
+
+- slug: groq
+  name: Groq
+  ticker: null
+  category: chip_designer
+  subline: "Acquired by NVIDIA, $20B"
+  acquired: true
+
+- slug: samsung-foundry
+  name: Samsung Foundry
+  ticker: "005930.KS"
+  category: chip_designer
+  subline: "2nm GAA, Taylor TX fab"
+
+- slug: microsoft
+  name: Microsoft
+  ticker: MSFT
+  category: hyperscaler
+  subline: "$145B capex (FY2026E)"
+
+- slug: google
+  name: Google
+  ticker: GOOGL
+  category: hyperscaler
+  subline: "$175–185B capex (2026E)"
+
+- slug: amazon-aws
+  name: Amazon/AWS
+  ticker: AMZN
+  category: hyperscaler
+  subline: "$200B capex (2026E)"
+
+- slug: meta
+  name: Meta
+  ticker: META
+  category: hyperscaler
+  subline: "$115–135B capex (2026E)"
+
+- slug: oracle
+  name: Oracle
+  ticker: ORCL
+  category: hyperscaler
+  subline: "$300B Stargate commitment"
+
+- slug: apple
+  name: Apple
+  ticker: AAPL
+  category: hyperscaler
+  subline: "$600B US AI commitment"
+
+- slug: tesla
+  name: Tesla
+  ticker: TSLA
+  category: hyperscaler
+  subline: "$16.5B Samsung foundry deal"
+
+- slug: softbank
+  name: SoftBank
+  ticker: "9984.T"
+  category: hyperscaler
+  subline: "Stargate chairman, $19B equity"
+
+- slug: coreweave
+  name: CoreWeave
+  ticker: CRWV
+  category: neocloud
+  subline: "$66.8B backlog, $5.1B rev"
+
+- slug: nebius
+  name: Nebius
+  ticker: NBIS
+  category: neocloud
+  subline: "$19B+ contracted"
+
+- slug: lambda
+  name: Lambda
+  ticker: null
+  category: neocloud
+  subline: "~50K GPUs, IPO H1 2026"
+
+- slug: cerebras
+  name: Cerebras
+  ticker: null
+  category: neocloud
+  subline: "$10B+ backlog, IPO 2026"
+
+- slug: openai
+  name: OpenAI
+  ticker: null
+  category: ai_lab
+  subline: "$30B+ run-rate (2026)"
+
+- slug: anthropic
+  name: Anthropic
+  ticker: null
+  category: ai_lab
+  subline: "$30B+ run-rate (2026)"
+
+- slug: xai
+  name: xAI
+  ticker: null
+  category: ai_lab
+  subline: "Memphis Colossus cluster"
+
+- slug: nscale
+  name: Nscale
+  ticker: null
+  category: neocloud
+  subline: "UK-based AI cloud infrastructure"
+
+- slug: rivos
+  name: Rivos
+  ticker: null
+  category: chip_designer
+  subline: "RISC-V AI chip startup (acquired by Meta)"
+  acquired: true
+
+- slug: io-products
+  name: io Products
+  ticker: null
+  category: ai_lab
+  subline: "Jony Ive AI hardware startup (acquired by OpenAI)"
+  acquired: true
+
+- slug: aligned-data-centers
+  name: Aligned Data Centers
+  ticker: null
+  category: data_center
+  subline: "5GW capacity, 50+ US/LATAM campuses"
+
+- slug: blackrock
+  name: BlackRock
+  ticker: BLK
+  category: hyperscaler
+  subline: "AIP consortium lead investor"
+
+- slug: multiple
+  name: Multiple
+  ticker: null
+  category: investor
+  subline: "Consortium of investors"
