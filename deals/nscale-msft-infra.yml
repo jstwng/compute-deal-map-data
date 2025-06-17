@@ -1,0 +1,14 @@
+id: nscale-msft-infra
+source_slug: nscale
+source_name: Nscale
+target_slug: microsoft
+target_name: Microsoft
+deal_type: cloud_capacity
+value_billions: 14
+value_display: $14B
+date: 2025-10
+date_display: Oct 2025
+description: >-
+  ~200K NVIDIA GB300 GPUs for Microsoft across 4 countries: US (104K), UK (23K), Portugal (12.6K), Norway (52K). With
+  Dell.
+source_url: https://www.nscale.com/press-releases/nscale-microsoft-2025

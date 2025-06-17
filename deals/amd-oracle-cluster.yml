@@ -1,0 +1,13 @@
+id: amd-oracle-cluster
+source_slug: amd
+source_name: AMD
+target_slug: oracle
+target_name: Oracle
+deal_type: gpu_purchase
+value_billions: null
+value_display: 50K MI450 GPUs
+date: 2025-10
+date_display: Oct 2025
+description: First publicly available MI450 supercluster Q3 2026 + 131K MI355X zettascale cluster
+source_url: >-
+  https://www.oracle.com/news/announcement/ai-world-oracle-and-amd-expand-partnership-to-help-customers-achieve-next-generation-ai-scale-2025-10-14/
