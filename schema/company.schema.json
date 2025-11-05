@@ -20,7 +20,7 @@
     },
     "category": {
       "type": "string",
-      "enum": ["chip_designer", "hyperscaler", "neocloud", "ai_lab", "data_center", "investor"]
+      "enum": ["chip_designer", "hyperscaler", "neocloud", "ai_lab", "data_center", "investor", "memory", "foundry", "networking", "server_oem", "power"]
     },
     "subline": {
       "type": "string"
