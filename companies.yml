@@ -247,6 +247,122 @@
   category: power
   subline: "SMR developer, Google partner"
 
+- slug: asml
+  name: ASML
+  ticker: ASML
+  category: equipment
+  subline: "EUV litho monopoly"
+
+- slug: amkor
+  name: Amkor Technology
+  ticker: AMKR
+  category: packaging
+  subline: "Apple anchor, AZ Peoria plant"
+
+- slug: zt-systems
+  name: ZT Systems
+  ticker: null
+  category: server_oem
+  subline: "Hyperscale AI rack design (acquired by AMD)"
+  acquired: true
+
+- slug: super-micro
+  name: Super Micro Computer
+  ticker: SMCI
+  category: server_oem
+  subline: "xAI Colossus rack supplier"
+
+- slug: vistra
+  name: Vistra
+  ticker: VST
+  category: power
+  subline: "Comanche Peak + PJM nuclear"
+
+- slug: x-energy
+  name: X-Energy
+  ticker: null
+  category: power
+  subline: "SMR developer, Amazon-backed"
+
+- slug: brookfield-renewable
+  name: Brookfield Renewable
+  ticker: BEP
+  category: power
+  subline: "3GW hydro framework w/ Google"
+
+- slug: sage-geosystems
+  name: Sage Geosystems
+  ticker: null
+  category: power
+  subline: "Next-gen geothermal, Meta partner"
+
+- slug: entergy
+  name: Entergy
+  ticker: ETR
+  category: power
+  subline: "Louisiana data-center power"
+
+- slug: lightmatter
+  name: Lightmatter
+  ticker: null
+  category: chip_designer
+  subline: "Photonic interconnect, $4.4B val"
+
+- slug: celestial-ai
+  name: Celestial AI
+  ticker: null
+  category: chip_designer
+  subline: "Photonic Fabric optical interconnect"
+
+- slug: d-matrix
+  name: d-Matrix
+  ticker: null
+  category: chip_designer
+  subline: "Digital in-memory inference"
+
+- slug: ayar-labs
+  name: Ayar Labs
+  ticker: null
+  category: chip_designer
+  subline: "Co-packaged optics (TeraPHY)"
+
+- slug: credo
+  name: Credo Technology
+  ticker: CRDO
+  category: networking
+  subline: "AECs, ~86% AWS revenue"
+
+- slug: applied-digital
+  name: Applied Digital
+  ticker: APLD
+  category: data_center
+  subline: "Polaris Forge ND campus"
+
+- slug: crusoe
+  name: Crusoe
+  ticker: null
+  category: neocloud
+  subline: "Stargate Abilene builder"
+
+- slug: iren
+  name: IREN (Iris Energy)
+  ticker: IREN
+  category: neocloud
+  subline: "Childress TX, MSFT GPU cloud"
+
+- slug: core-scientific
+  name: Core Scientific
+  ticker: null
+  category: data_center
+  subline: "HPC hosting (acquired by CoreWeave)"
+  acquired: true
+
+- slug: galaxy
+  name: Galaxy Digital
+  ticker: GLXY
+  category: data_center
+  subline: "Helios TX campus, CRWV lessor"
+
 - slug: multiple
   name: Multiple
   ticker: null
