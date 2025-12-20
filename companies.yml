@@ -368,3 +368,124 @@
   ticker: null
   category: investor
   subline: "Consortium of investors"
+
+- slug: applied-materials
+  name: Applied Materials
+  ticker: AMAT
+  category: equipment
+  subline: "$28B rev, deposition/etch/CMP leader"
+
+- slug: lam-research
+  name: Lam Research
+  ticker: LRCX
+  category: equipment
+  subline: "$15B+ rev, etch/deposition for memory"
+
+- slug: tokyo-electron
+  name: Tokyo Electron
+  ticker: "8035.T"
+  category: equipment
+  subline: "~$15B rev, coater/developer + etch"
+
+- slug: kla
+  name: KLA Corporation
+  ticker: KLAC
+  category: equipment
+  subline: "~$11B rev, process control monopoly"
+
+- slug: shin-etsu
+  name: Shin-Etsu Chemical
+  ticker: "4063.T"
+  category: equipment
+  subline: "World #1 silicon wafers + photoresist"
+
+- slug: sumco
+  name: SUMCO
+  ticker: "3436.T"
+  category: equipment
+  subline: "World #2 silicon wafer supplier"
+
+- slug: ase-group
+  name: ASE Technology Holding
+  ticker: ASX
+  category: packaging
+  subline: "~$18B OSAT leader, advanced packaging"
+
+- slug: qualcomm
+  name: Qualcomm
+  ticker: QCOM
+  category: chip_designer
+  subline: "$40B rev, Snapdragon + 5G modem leader"
+
+- slug: globalfoundries
+  name: GlobalFoundries
+  ticker: GFS
+  category: foundry
+  subline: "~$7B rev, mature-node specialist"
+
+- slug: umc
+  name: United Microelectronics
+  ticker: UMC
+  category: foundry
+  subline: "~$7B rev, mature-node Taiwanese foundry"
+
+- slug: smic
+  name: SMIC
+  ticker: "981.HK"
+  category: foundry
+  subline: "China's largest foundry, 7nm w/o EUV"
+
+- slug: arm
+  name: Arm Holdings
+  ticker: ARM
+  category: chip_designer
+  subline: "$4B rev, IP licensing (mobile to DC)"
+
+- slug: synopsys
+  name: Synopsys
+  ticker: SNPS
+  category: chip_designer
+  subline: "~$7B rev, EDA + IP duopoly"
+
+- slug: cadence
+  name: Cadence Design Systems
+  ticker: CDNS
+  category: chip_designer
+  subline: "~$5B rev, EDA + IP duopoly"
+
+- slug: sambanova
+  name: SambaNova Systems
+  ticker: null
+  category: chip_designer
+  subline: "RDU AI accelerators, gov + enterprise"
+
+- slug: mellanox
+  name: Mellanox Technologies
+  ticker: null
+  category: networking
+  subline: "InfiniBand + Ethernet (acquired by NVIDIA 2020)"
+  acquired: true
+
+- slug: cisco
+  name: Cisco Systems
+  ticker: CSCO
+  category: networking
+  subline: "$54B rev, $3B AI networking (2025)"
+
+- slug: onto-innovation
+  name: Onto Innovation
+  ticker: ONTO
+  category: equipment
+  subline: "~$1B rev, advanced metrology/inspection"
+
+- slug: entegris
+  name: Entegris
+  ticker: ENTG
+  category: equipment
+  subline: "~$3.5B rev, specialty materials/chemicals"
+
+- slug: tower-semiconductor
+  name: Tower Semiconductor
+  ticker: TSEM
+  category: foundry
+  subline: "~$1.5B rev, specialty/analog foundry"
