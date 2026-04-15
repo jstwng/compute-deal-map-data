@@ -13,8 +13,8 @@ The canonical artifacts are attached to every [Release](../../releases):
 Always-latest download URLs:
 
 ```
-https://github.com/<OWNER>/compute-deal-map-data/releases/latest/download/deals.json
-https://github.com/<OWNER>/compute-deal-map-data/releases/latest/download/companies.json
+https://github.com/jstwng/compute-deal-map-data/releases/latest/download/deals.json
+https://github.com/jstwng/compute-deal-map-data/releases/latest/download/companies.json
 ```
 
 Pin to a specific release by replacing `latest` with the tag (e.g., `2026.04.15`).
