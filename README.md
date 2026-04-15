@@ -1,6 +1,6 @@
 # compute-deal-map-data
 
-A source-backed, structured dataset of publicly disclosed AI infrastructure deals: GPU purchases, custom ASIC contracts, equity investments, cloud-capacity agreements, M&A, and funding rounds. Powers the visualization at [justinwang.xyz](https://justinwang.xyz) (ComputeDealMap section).
+A source-backed, structured dataset of publicly disclosed AI infrastructure deals: GPU purchases, custom ASIC contracts, equity investments, cloud-capacity agreements, M&A, and funding rounds. Powers the visualization at [justinwang.xyz](https://jstwng.com).
 
 ## Using the data
 
