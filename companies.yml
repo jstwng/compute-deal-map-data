@@ -181,6 +181,72 @@
   category: chip_designer
   subline: "Lasers, optical components"
 
+- slug: sk-hynix
+  name: SK Hynix
+  ticker: "000660.KS"
+  category: memory
+  subline: "HBM leader, ~60% share"
+
+- slug: micron
+  name: Micron Technology
+  ticker: MU
+  category: memory
+  subline: "HBM3E / HBM4, SOCAMM"
+
+- slug: samsung-memory
+  name: Samsung (Memory)
+  ticker: "005930.KS"
+  category: memory
+  subline: "HBM3E/HBM4, Stargate partner"
+
+- slug: dell
+  name: Dell Technologies
+  ticker: DELL
+  category: server_oem
+  subline: "xAI Colossus primary integrator"
+
+- slug: hpe
+  name: Hewlett Packard Enterprise
+  ticker: HPE
+  category: server_oem
+  subline: "AI server vendor, post-Juniper"
+
+- slug: foxconn
+  name: Foxconn (Hon Hai)
+  ticker: "2317.TW"
+  category: server_oem
+  subline: "NVIDIA GB200 assembly"
+
+- slug: arista
+  name: Arista Networks
+  ticker: ANET
+  category: networking
+  subline: "Ethernet for Meta AI fabric"
+
+- slug: astera-labs
+  name: Astera Labs
+  ticker: ALAB
+  category: networking
+  subline: "NVLink Fusion, PCIe connectivity"
+
+- slug: constellation
+  name: Constellation Energy
+  ticker: CEG
+  category: power
+  subline: "Nuclear baseload, TMI/Clinton"
+
+- slug: talen
+  name: Talen Energy
+  ticker: TLN
+  category: power
+  subline: "Susquehanna nuclear, AWS PPA"
+
+- slug: kairos
+  name: Kairos Power
+  ticker: null
+  category: power
+  subline: "SMR developer, Google partner"
+
 - slug: multiple
   name: Multiple
   ticker: null
