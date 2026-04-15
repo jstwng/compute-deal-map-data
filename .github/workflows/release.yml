@@ -1,0 +1,53 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npm test
+      - run: npm run build
+
+      - id: tag
+        run: echo "tag=$(./scripts/compute-tag.sh)" >> $GITHUB_OUTPUT
+
+      - id: notes
+        run: |
+          last_tag=$(git tag --sort=-creatordate | head -n1 || echo "")
+          if [ -z "$last_tag" ]; then
+            range="HEAD"
+          else
+            range="${last_tag}..HEAD"
+          fi
+          {
+            echo "notes<<EOF"
+            echo "## Changes"
+            git log "$range" --pretty=format:"- %s" --no-merges || echo "- Initial release"
+            echo ""
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git tag "${{ steps.tag.outputs.tag }}"
+          git push origin "${{ steps.tag.outputs.tag }}"
+          gh release create "${{ steps.tag.outputs.tag }}" \
+            dist/deals.json dist/companies.json dist/schema.json \
+            --title "${{ steps.tag.outputs.tag }}" \
+            --notes "${{ steps.notes.outputs.notes }}"
