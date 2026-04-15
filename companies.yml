@@ -163,6 +163,24 @@
   category: hyperscaler
   subline: "AIP consortium lead investor"
 
+- slug: tsmc
+  name: TSMC
+  ticker: TSM
+  category: chip_designer
+  subline: "Foundry for NVIDIA, AMD, Apple, Broadcom"
+
+- slug: coherent
+  name: Coherent
+  ticker: COHR
+  category: chip_designer
+  subline: "Silicon photonics, optical networking"
+
+- slug: lumentum
+  name: Lumentum
+  ticker: LITE
+  category: chip_designer
+  subline: "Lasers, optical components"
+
 - slug: multiple
   name: Multiple
   ticker: null
