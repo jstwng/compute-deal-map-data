@@ -16,7 +16,7 @@
     "target_name": { "type": "string", "minLength": 1 },
     "deal_type": {
       "type": "string",
-      "enum": ["gpu_purchase", "custom_asic", "equity_investment", "cloud_capacity", "m_and_a", "funding_round"]
+      "enum": ["gpu_purchase", "custom_asic", "equity_investment", "cloud_capacity", "m_and_a", "funding_round", "power_ppa"]
     },
     "value_billions": { "type": ["number", "null"], "minimum": 0 },
     "value_display": { "type": ["string", "null"] },
