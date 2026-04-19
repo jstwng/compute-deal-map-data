@@ -1,6 +1,6 @@
 # compute-deal-map-data
 
-A source-backed, structured dataset of publicly disclosed AI infrastructure deals: GPU purchases, custom ASIC contracts, equity investments, cloud-capacity agreements, M&A, and funding rounds. Powers the visualization at [jstwng.com](https://jstwng.com).
+A structured, source-backed dataset of publicly disclosed AI ecosystem transactions spanning across hyperscalers, neoclouds, frontier labs, chip designers, server OEMs, and more. This repo feeds into the interface at [compute.jstwng.com](https://compute.jstwng.com).
 
 ## Using the data
 
